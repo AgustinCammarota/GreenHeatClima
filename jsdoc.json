@@ -1,0 +1,22 @@
+{
+  "source": {
+    "include": [
+      "src/pages",
+      "src/routes",
+      "src/templates",
+      "src/utils"
+    ],
+    "includePattern": ".js$",
+    "excludePattern": "(node_modules|docs|dist|public)"
+  },
+  "plugins": [],
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true
+  },
+  "opts": {
+    "recurse": true,
+    "destination": "./docs",
+    "readme": "./README.md"
+  }
+}
