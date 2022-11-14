@@ -4,7 +4,6 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const HtmlMinimizerPlugin = require("html-minimizer-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
-const { BundleAnalyzerPlugin } = require("webpack-bundle-analyzer");
 const Dotenv = require("dotenv-webpack");
 const I18nPlugin = require("@zainulbr/i18n-webpack-plugin");
 const languages = {
@@ -68,19 +67,14 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             inject: true,
-            template: "./public/index.html",
-            filename: "./index.html",
+            template: path.resolve( __dirname, 'public/index.html'),
+            filename: "index.html",
             favicon: "./favicon.ico"
         }),
         new MiniCssExtractPlugin({
             filename: "assets/[name].[contenthash].css"
         }),
         new Dotenv(),
-        new BundleAnalyzerPlugin({
-              analyzerMode: 'static',
-              openAnalyzer: false,
-              generateStatsFile: true
-          }),
         new I18nPlugin(languages["es"])
     ],
     optimization: {
