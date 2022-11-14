@@ -41,7 +41,7 @@ class Home {
     <section class="presentation" id="presentation">
         <div class="presentation__background"></div>
         <div class="presentation__image">
-            <img loading="lazy" src="${home}" alt="heating">
+            <img src="${home}" alt="heating">
         </div>
         <div class="information-company">
             <h2 class="information-company__title">${__('card-information-company-subtitle')}</h2>

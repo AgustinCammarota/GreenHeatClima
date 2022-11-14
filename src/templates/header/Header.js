@@ -16,8 +16,8 @@ class Header {
     const view = `
     <nav class="nav" id="navigation">
         <figure class="figure-container">
-            <img loading="lazy" class="figure-container__image" src="${logo}" alt="Green heat clima">
-            <img loading="lazy" class="figure-container__image" src="${logoMobile}" alt="Green heat clima">
+            <img class="figure-container__image" src="${logo}" alt="Green heat clima">
+            <img class="figure-container__image" src="${logoMobile}" alt="Green heat clima">
         </figure>
         <ul class="list-container">
             <li class="list-container__item"><a href="#presentation">${__('header-presentation')}</a></li>

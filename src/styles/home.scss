@@ -200,7 +200,7 @@ $box-shadow: 4px 4px 2px #00000036;
 // Section: About
 
 .about {
-  min-height: 500px;
+  min-height: 600px;
   max-height: 600px;
   height: 70vh;
   display: flex;
@@ -647,7 +647,7 @@ $box-shadow: 4px 4px 2px #00000036;
 
 @media (max-width: 900px) {
   .about {
-    min-height: 400px;
+    min-height: 500px;
     max-height: 500px;
   }
 
@@ -727,11 +727,11 @@ $box-shadow: 4px 4px 2px #00000036;
 
 @media (max-width: 800px) {
   .about {
-    min-height: 500px;
-    max-height: 550px;
+    max-height: 600px;
+    min-height: 600px;
     height: 80vh;
     display: block;
-    padding: 100px 20px 20px;
+    padding: 140px 20px 20px;
   }
 
   .about .about-figure {
@@ -896,10 +896,9 @@ $box-shadow: 4px 4px 2px #00000036;
   }
 
   .about {
-    min-height: 450px;
-    max-height: 450px;
+    max-height: 550px;
+    min-height: 550px;
     height: 75vh;
-    padding: 120px 20px 20px;
   }
 
   .about .about-info {
@@ -932,7 +931,6 @@ $box-shadow: 4px 4px 2px #00000036;
     flex-wrap: nowrap;
     overflow: hidden;
     justify-content: start;
-    gap: 20px;
   }
 
   .gallery .header-gallery .header-gallery__subtitle {
@@ -960,7 +958,7 @@ $box-shadow: 4px 4px 2px #00000036;
   .gallery .gallery-container .gallery-container__figure .gallery-container__image {
     height: 320px;
     max-height: none;
-    width: 98%;
+    width: 97%;
   }
 
   .customers {
@@ -1083,7 +1081,7 @@ $box-shadow: 4px 4px 2px #00000036;
   }
 
   .presentation .presentation__image img {
-    height: $size;
+    height: 95%;
     width: 95%;
   }
 
@@ -1099,11 +1097,6 @@ $box-shadow: 4px 4px 2px #00000036;
     margin-bottom: 20px;
     padding: 10px;
     background-color: $light-white;
-  }
-
-  .about {
-    height: 75vh;
-    padding: 100px 20px 20px;
   }
 
   .about .about-info .about-info__title {
@@ -1123,8 +1116,8 @@ $box-shadow: 4px 4px 2px #00000036;
   }
 
   .services {
-    max-height: 970px;
-    min-height: 970px;
+    max-height: 1000px;
+    min-height: 1000px;
     height: 145vh;
   }
 
@@ -1163,16 +1156,11 @@ $box-shadow: 4px 4px 2px #00000036;
   }
 
   .presentation .presentation__image img {
-    height: 85%;
+    height: 82%;
   }
 
   .presentation .cards {
     margin-top: -10px;
-  }
-
-  .about {
-    height: 75vh;
-    padding: 80px 10px;
   }
 
   .about .about-info {
@@ -1188,14 +1176,6 @@ $box-shadow: 4px 4px 2px #00000036;
 
   .customers .brands-container {
     gap: 35px;
-  }
-
-  .gallery .gallery-container {
-    gap: 15px;
-  }
-
-  .gallery .gallery-container .gallery-container__figure .gallery-container__image {
-    width: 93%;
   }
 
   .services {

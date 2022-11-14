@@ -24,7 +24,7 @@ class Footer {
             <img class="contact-container__image" src="${instagram}" alt="instagram">
             <p class="contact-container__text">${__('footer-instagram')}</p>
         </a>
-        <a class="contact-container" target="_blank" href="https:wa.me/+5491162188835">
+        <a class="contact-container" target="_blank" href="https://wa.me/+5491162188835">
             <img class="contact-container__image" src="${whatsapp}" alt="whatsapp">
             <p class="contact-container__text">${__('footer-whatsapp')}</p>
         </a>
