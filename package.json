@@ -17,7 +17,10 @@
     "Air conditioners",
     "Construction services"
   ],
-  "author": "",
+  "engines": {
+    "node": "14.18.x"
+  },
+  "author": "Agustin Cammarota Muti",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.17.10",
