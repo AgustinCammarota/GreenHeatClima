@@ -76,7 +76,11 @@ module.exports = {
             filename: "assets/[name].[contenthash].css"
         }),
         new Dotenv(),
-        new BundleAnalyzerPlugin(),
+        new BundleAnalyzerPlugin({
+              analyzerMode: 'static',
+              openAnalyzer: false,
+              generateStatsFile: true
+          }),
         new I18nPlugin(languages["es"])
     ],
     optimization: {
