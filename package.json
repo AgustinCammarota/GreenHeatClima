@@ -17,9 +17,6 @@
     "Air conditioners",
     "Construction services"
   ],
-  "engines": {
-    "node": "16.18.x"
-  },
   "author": "Agustin Cammarota Muti",
   "license": "ISC",
   "devDependencies": {
