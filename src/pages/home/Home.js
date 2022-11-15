@@ -41,7 +41,7 @@ class Home {
     <section class="presentation" id="presentation">
         <div class="presentation__background"></div>
         <div class="presentation__image">
-            <img src="${home}" alt="heating">
+            <img loading="eager" src="${home}" alt="heating">
         </div>
         <div class="information-company">
             <h2 class="information-company__title">${__('card-information-company-subtitle')}</h2>
@@ -86,7 +86,7 @@ class Home {
     <section class="customers" id="customers">
         <div class="brands-container">
             <figure class="brands-container__figure">
-                <img class="brands-container__image" size="250px" loading="lazy" src="${ariston}" alt="ariston">
+                <img class="brands-container__image" loading="lazy" src="${ariston}" alt="ariston">
             </figure>
             <figure class="brands-container__figure">
                 <img class="brands-container__image" loading="lazy" src="${peisa}" alt="peisa">
@@ -149,7 +149,7 @@ class Home {
         <div class="card-services-container">
             <div class="card-services card-services-one">
                 <figure class="card-services__figure">
-                    <img class="card-services__image" src="${planning}" alt="planning">
+                    <img class="card-services__image" loading="lazy" src="${planning}" alt="planning">
                 </figure>
                 <div class="card-services-info">
                     <h4 class="card-services-info__title">${__('card-services-info-title-one').toUpperCase()}</h4>
@@ -159,7 +159,7 @@ class Home {
             
             <div class="card-services card-services-two">
                 <figure class="card-services__figure">
-                    <img class="card-services__image" src="${support}" alt="support">
+                    <img class="card-services__image" loading="lazy" src="${support}" alt="support">
                 </figure>
                 <div class="card-services-info">
                     <h4 class="card-services-info__title">${__('card-services-info-title-two').toUpperCase()}</h4>
@@ -169,7 +169,7 @@ class Home {
             
             <div class="card-services card-services-three">
                 <figure class="card-services__figure">
-                    <img class="card-services__image" src="${finance}" alt="finance">
+                    <img class="card-services__image" loading="lazy" src="${finance}" alt="finance">
                 </figure>
                 <div class="card-services-info">
                     <h4 class="card-services-info__title">${__('card-services-info-title-three').toUpperCase()}</h4>
@@ -179,7 +179,7 @@ class Home {
            
            <div class="card-services card-services-four">
                 <figure class="card-services__figure">
-                    <img class="card-services__image" src="${service}" alt="service">
+                    <img class="card-services__image" loading="lazy" src="${service}" alt="service">
                 </figure>
                 <div class="card-services-info">
                     <h4 class="card-services-info__title">${__('card-services-info-title-four').toUpperCase()}</h4>

@@ -1099,6 +1099,18 @@ $box-shadow: 4px 4px 2px #00000036;
     background-color: $light-white;
   }
 
+  .about {
+    padding: 120px 20px 20px;
+  }
+
+  .about .about-info {
+    background: url("../assets/images/map-mobile.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position-y: -10px;
+  }
+
   .about .about-info .about-info__title {
     font-size: 2.4rem;
   }
@@ -1161,12 +1173,6 @@ $box-shadow: 4px 4px 2px #00000036;
 
   .presentation .cards {
     margin-top: -10px;
-  }
-
-  .about .about-info {
-    min-height: 300px;
-    background-position-y: -55px;
-    padding: 0;
   }
 
   .about .about-info .about-info__text {
