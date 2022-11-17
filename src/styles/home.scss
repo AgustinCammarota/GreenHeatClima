@@ -333,6 +333,15 @@ $box-shadow: 4px 4px 2px #00000036;
       width: 25%;
       height: auto;
       min-width: 25%;
+      cursor: zoom-out;
+      will-change: transform;
+
+      &:active {
+        transform: scale(1.3);
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+        z-index: 2;
+      }
 
       .gallery-container__image {
         width: $size;
@@ -1007,43 +1016,43 @@ $box-shadow: 4px 4px 2px #00000036;
     }
 
     20% {
-      transform: translateX(-104%);
+      transform: translateX(-100%);
     }
 
     30% {
-      transform: translateX(-104%);
+      transform: translateX(-100%);
     }
 
     40% {
-      transform: translateX(-208%);
+      transform: translateX(-200%);
     }
 
     50% {
-      transform: translateX(-208%);
+      transform: translateX(-200%);
     }
 
     60% {
-      transform: translateX(-314%);
+      transform: translateX(-300%);
     }
 
     70% {
-      transform: translateX(-314%);
+      transform: translateX(-300%);
     }
 
     80% {
-      transform: translateX(-417%);
+      transform: translateX(-400%);
     }
 
     85% {
-      transform: translateX(-417%);
+      transform: translateX(-400%);
     }
 
     95% {
-      transform: translateX(-522%);
+      transform: translateX(-500%);
     }
 
     100% {
-      transform: translateX(-522%);
+      transform: translateX(-500%);
     }
   }
 }
@@ -1081,12 +1090,12 @@ $box-shadow: 4px 4px 2px #00000036;
   }
 
   .presentation .presentation__image img {
-    height: 95%;
+    height: 85%;
     width: 95%;
   }
 
   .presentation .cards {
-    margin-top: 10px;
+    margin-top: -5px;
     grid-column: 1 / 13;
     grid-row: 6 / 13;
     padding: 0;
@@ -1168,11 +1177,11 @@ $box-shadow: 4px 4px 2px #00000036;
   }
 
   .presentation .presentation__image img {
-    height: 82%;
+    height: 80%;
   }
 
   .presentation .cards {
-    margin-top: -10px;
+    margin-top: -15px;
   }
 
   .about .about-info .about-info__text {
